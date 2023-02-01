@@ -1,5 +1,10 @@
 import React from "react";
 
+// to import a specific variable by name:
+import { image } from "../data/user";
+// can rename variable inside import statement:
+// import { image as newImage} from "../data/user"
+
 function About() {
   return (
     <div id="about">
@@ -9,3 +14,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
